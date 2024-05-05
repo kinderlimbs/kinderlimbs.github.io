@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: manrope;
+}
+
+p{
+    margin:0;
+}
+
+.heading{
+    margin: 0;
+    color: #149954;
+}
+
+.navbar{
+    padding: 20px;
+    min-height: 100px;
+
+    background-color: #dcdcdc;
+    display: flex;
+
+}
+
+.logo-container{
+    padding: 0 50px;
+    font-size: 14px;
+}
+
+.logo{
+    width: 120px;
+}
+
+.page-info{
+    align-self: self-end;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.content{
+    padding: 50px;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content p{
+    font-size: 16px;
+}
+
+.vision,.mission{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 45%;
+}
+
+.rows-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.vertical-left,.vertical-right{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+    gap:20px
+}
+
+.amp-image{
+    width: 45%;
+    background-color: #dcdcdc;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.people{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    gap:20px
+}
+
+.avatar-container{
+    text-align: center;
+    width: 115px;
+}
+
+.avatar-container p{
+    font-size: 12px;
+}
+
+.footer{
+    padding: 20px;
+    min-height: 60px;
+
+    background-color: #dcdcdc;
+    display: flex;
+
+    justify-content: center;
+    gap: 20px
+    
+}
+
+.social-logos-container{
+    display: flex;
+    margin-left: auto;
+}
+
+.social-logo,.social-logo:hover{
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+}
+
+.mail{
+    position: absolute;
+    right: 35px;
+    align-self: center;
+}
