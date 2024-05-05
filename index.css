@@ -249,6 +249,18 @@ p{
         padding: 18px;
     }
 
+    .content p{
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    .avatar-container p{
+        font-size: 10px;
+    }
+
     .page-info{
         display: none;
     }
